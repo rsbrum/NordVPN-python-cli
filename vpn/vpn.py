@@ -68,9 +68,9 @@ class Vpn(object):
             self.kill()
             raise Exception("OpenVPN connection failed")
 
-    def wait_for_user():
+    def wait_for_user(self):
         pass
-
+ 
     def set_OpenVPN_status(self):
         """
             Checks if the OpenVPN process is active
