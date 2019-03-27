@@ -1,0 +1,895 @@
+2019-03-24 14:49:16,810 - INFO - main - Process started...
+2019-03-24 14:49:16,811 - INFO - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 14:49:35,295 - INFO - main - Process started...
+2019-03-24 14:49:35,295 - INFO - main - Collecting servers addresses from /etc/openvpovpn_udp/
+2019-03-24 14:51:12,541 - INFO - main - Process started...
+2019-03-24 14:51:12,541 - INFO - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 14:51:47,949 - INFO - main - Process started...
+2019-03-24 14:51:47,949 - INFO - main - Collecting servers addresses from /etc/openvpn/ovdp/
+2019-03-24 14:52:45,717 - INFO - main - Process started...
+2019-03-24 14:52:45,717 - INFO - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 14:52:45,717 - ERROR - main - Failed to collect addresses!
+2019-03-24 15:05:16,002 - INFO - main - Process started...
+2019-03-24 15:05:16,002 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 15:05:17,038 - ERROR - main - Failed to start the VPN
+2019-03-24 15:05:17,039 - DEBUG - main - Failed to get OpenVPN's PID
+2019-03-24 15:22:48,226 - INFO - main - Process started...
+2019-03-24 15:22:48,226 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 15:22:48,255 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 15:22:48,255 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 15:22:48,255 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh us1619.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 15:22:48,255 - DEBUG - vpn - Removing old PID file...
+2019-03-24 15:22:48,255 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 15:22:48,255 - DEBUG - vpn - Executing cmd...
+2019-03-24 15:22:49,258 - DEBUG - vpn - Removing PID file...
+2019-03-24 15:22:49,259 - DEBUG - vpn - PID file removed!
+2019-03-24 15:22:49,259 - DEBUG - vpn - Setting VPN status...
+2019-03-24 15:22:49,259 - DEBUG - vpn - VPN is online
+2019-03-24 15:22:49,259 - INFO - main - Connected at: us1619.nordvpn.com.udp.ovpn
+2019-03-24 15:23:09,295 - ERROR - main - Failed to start the VPN
+2019-03-24 15:23:09,295 - DEBUG - main - unexpected EOF while parsing (<string>, line 0)
+2019-03-24 16:01:46,143 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:01:46,172 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:01:46,172 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:01:46,173 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh us1274.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:01:46,173 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:01:46,173 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:01:46,173 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:01:47,175 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:01:47,176 - DEBUG - vpn - PID file removed!
+2019-03-24 16:01:47,176 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:01:47,176 - DEBUG - vpn - VPN is online
+2019-03-24 16:01:47,176 - INFO - main - Connected at: us1274.nordvpn.com.udp.ovpn
+2019-03-24 16:07:24,893 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:07:24,925 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:07:24,925 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:07:24,925 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh us1691.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:07:24,925 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:07:24,925 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:07:24,925 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:07:25,927 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:07:25,928 - DEBUG - vpn - PID file removed!
+2019-03-24 16:07:25,928 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:07:25,928 - DEBUG - vpn - VPN is online
+2019-03-24 16:07:25,928 - INFO - main - Checking server connection...
+2019-03-24 16:07:25,928 - WARNING - main - Server is not responding!
+2019-03-24 16:07:25,928 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:07:25,980 - ERROR - main - Failed to connect to: us1691.nordvpn.com.udp.ovpn
+2019-03-24 16:07:25,980 - DEBUG - main - local variable 'errors' referenced before assignment
+2019-03-24 16:08:25,839 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:08:25,867 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:08:25,867 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:08:25,868 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh de403.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:08:25,868 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:08:25,868 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:08:25,868 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:08:26,871 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:08:26,872 - DEBUG - vpn - PID file removed!
+2019-03-24 16:08:26,872 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:08:26,872 - DEBUG - vpn - VPN is online
+2019-03-24 16:08:26,872 - INFO - main - Checking server connection...
+2019-03-24 16:08:26,872 - WARNING - main - Server is not responding!
+2019-03-24 16:08:26,872 - WARNING - main - Server is not responding!
+2019-03-24 16:08:26,873 - WARNING - main - Server is not responding!
+2019-03-24 16:08:26,873 - ERROR - main - Server did not respond!
+2019-03-24 16:08:26,873 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:08:26,896 - ERROR - main - Failed to connect to: de403.nordvpn.com.udp.ovpn
+2019-03-24 16:08:26,897 - DEBUG - main - Server didn't respond
+2019-03-24 16:08:26,897 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:08:26,925 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:08:26,926 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:08:26,926 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh hk8.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:08:26,926 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:08:26,926 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:08:26,926 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:08:27,929 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:08:27,929 - DEBUG - vpn - PID file removed!
+2019-03-24 16:08:27,930 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:08:27,930 - DEBUG - vpn - VPN is online
+2019-03-24 16:08:27,930 - INFO - main - Checking server connection...
+2019-03-24 16:08:27,931 - WARNING - main - Server is not responding!
+2019-03-24 16:08:27,931 - WARNING - main - Server is not responding!
+2019-03-24 16:08:27,931 - WARNING - main - Server is not responding!
+2019-03-24 16:08:27,931 - ERROR - main - Server did not respond!
+2019-03-24 16:08:27,932 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:08:27,953 - ERROR - main - Failed to connect to: hk8.nordvpn.com.udp.ovpn
+2019-03-24 16:08:27,953 - DEBUG - main - Server didn't respond
+2019-03-24 16:08:27,953 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:08:27,986 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:08:27,986 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:08:27,986 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh us2083.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:08:27,987 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:08:27,987 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:08:27,987 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:08:28,989 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:08:28,990 - DEBUG - vpn - PID file removed!
+2019-03-24 16:08:28,990 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:08:28,991 - DEBUG - vpn - VPN is online
+2019-03-24 16:08:28,991 - INFO - main - Checking server connection...
+2019-03-24 16:08:28,991 - WARNING - main - Server is not responding!
+2019-03-24 16:08:28,992 - WARNING - main - Server is not responding!
+2019-03-24 16:08:28,992 - WARNING - main - Server is not responding!
+2019-03-24 16:08:28,992 - ERROR - main - Server did not respond!
+2019-03-24 16:08:28,992 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:08:29,015 - ERROR - main - Failed to connect to: us2083.nordvpn.com.udp.ovpn
+2019-03-24 16:08:29,015 - DEBUG - main - Server didn't respond
+2019-03-24 16:08:29,015 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:08:29,047 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:08:29,047 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:08:29,047 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh dk36.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:08:29,047 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:08:29,047 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:08:29,047 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:08:30,050 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:08:30,051 - DEBUG - vpn - PID file removed!
+2019-03-24 16:08:30,051 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:08:30,052 - DEBUG - vpn - VPN is online
+2019-03-24 16:08:30,052 - INFO - main - Checking server connection...
+2019-03-24 16:08:30,052 - WARNING - main - Server is not responding!
+2019-03-24 16:08:30,052 - WARNING - main - Server is not responding!
+2019-03-24 16:08:30,053 - WARNING - main - Server is not responding!
+2019-03-24 16:08:30,053 - ERROR - main - Server did not respond!
+2019-03-24 16:08:30,053 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:08:30,075 - ERROR - main - Failed to connect to: dk36.nordvpn.com.udp.ovpn
+2019-03-24 16:08:30,076 - DEBUG - main - Server didn't respond
+2019-03-24 16:08:30,076 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:08:30,110 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:08:30,111 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:08:30,111 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh mx6.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:08:30,111 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:08:30,111 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:08:30,111 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:08:31,114 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:08:31,115 - DEBUG - vpn - PID file removed!
+2019-03-24 16:08:31,115 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:08:31,116 - DEBUG - vpn - VPN is online
+2019-03-24 16:08:31,116 - INFO - main - Checking server connection...
+2019-03-24 16:08:31,116 - WARNING - main - Server is not responding!
+2019-03-24 16:08:31,116 - WARNING - main - Server is not responding!
+2019-03-24 16:08:31,116 - WARNING - main - Server is not responding!
+2019-03-24 16:08:31,116 - ERROR - main - Server did not respond!
+2019-03-24 16:08:31,117 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:08:31,138 - ERROR - main - Failed to connect to: mx6.nordvpn.com.udp.ovpn
+2019-03-24 16:08:31,138 - DEBUG - main - Server didn't respond
+2019-03-24 16:08:31,138 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:08:31,171 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:08:31,172 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:08:31,172 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh us2659.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:08:31,172 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:08:31,172 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:08:31,172 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:08:32,175 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:08:32,175 - DEBUG - vpn - PID file removed!
+2019-03-24 16:08:32,176 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:08:32,176 - DEBUG - vpn - VPN is online
+2019-03-24 16:08:32,176 - INFO - main - Checking server connection...
+2019-03-24 16:08:32,176 - WARNING - main - Server is not responding!
+2019-03-24 16:08:32,177 - WARNING - main - Server is not responding!
+2019-03-24 16:08:32,177 - WARNING - main - Server is not responding!
+2019-03-24 16:08:32,177 - ERROR - main - Server did not respond!
+2019-03-24 16:08:32,177 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:08:32,200 - ERROR - main - Failed to connect to: us2659.nordvpn.com.udp.ovpn
+2019-03-24 16:08:32,200 - DEBUG - main - Server didn't respond
+2019-03-24 16:08:32,200 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:08:32,236 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:08:32,236 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:08:32,236 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh us1153.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:08:32,236 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:08:32,237 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:08:32,237 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:08:33,239 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:08:33,239 - DEBUG - vpn - PID file removed!
+2019-03-24 16:08:33,239 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:08:33,240 - DEBUG - vpn - VPN is online
+2019-03-24 16:08:33,240 - INFO - main - Checking server connection...
+2019-03-24 16:08:33,240 - WARNING - main - Server is not responding!
+2019-03-24 16:08:33,240 - WARNING - main - Server is not responding!
+2019-03-24 16:08:33,240 - WARNING - main - Server is not responding!
+2019-03-24 16:08:33,241 - ERROR - main - Server did not respond!
+2019-03-24 16:08:33,241 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:08:33,258 - ERROR - main - Failed to connect to: us1153.nordvpn.com.udp.ovpn
+2019-03-24 16:08:33,259 - DEBUG - main - Server didn't respond
+2019-03-24 16:08:33,259 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:08:33,292 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:08:33,292 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:08:33,292 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh us3031.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:08:33,292 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:08:33,292 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:08:33,292 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:08:34,295 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:08:34,296 - DEBUG - vpn - PID file removed!
+2019-03-24 16:08:34,296 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:08:34,297 - DEBUG - vpn - VPN is online
+2019-03-24 16:08:34,297 - INFO - main - Checking server connection...
+2019-03-24 16:08:34,297 - WARNING - main - Server is not responding!
+2019-03-24 16:08:34,297 - WARNING - main - Server is not responding!
+2019-03-24 16:08:34,298 - WARNING - main - Server is not responding!
+2019-03-24 16:08:34,298 - ERROR - main - Server did not respond!
+2019-03-24 16:08:34,298 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:08:34,322 - ERROR - main - Failed to connect to: us3031.nordvpn.com.udp.ovpn
+2019-03-24 16:08:34,323 - DEBUG - main - Server didn't respond
+2019-03-24 16:08:34,323 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:08:34,357 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:08:34,357 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:08:34,357 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh se113.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:08:34,358 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:08:34,358 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:08:34,358 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:08:35,361 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:08:35,361 - DEBUG - vpn - PID file removed!
+2019-03-24 16:08:35,361 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:08:35,362 - DEBUG - vpn - VPN is online
+2019-03-24 16:08:35,362 - INFO - main - Checking server connection...
+2019-03-24 16:08:35,362 - WARNING - main - Server is not responding!
+2019-03-24 16:08:35,362 - WARNING - main - Server is not responding!
+2019-03-24 16:08:35,362 - WARNING - main - Server is not responding!
+2019-03-24 16:08:35,362 - ERROR - main - Server did not respond!
+2019-03-24 16:08:35,363 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:08:35,384 - ERROR - main - Failed to connect to: se113.nordvpn.com.udp.ovpn
+2019-03-24 16:08:35,384 - DEBUG - main - Server didn't respond
+2019-03-24 16:08:35,385 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:08:42,526 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:08:42,555 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:08:42,555 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:08:42,555 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh ba3.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:08:42,555 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:08:42,555 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:08:42,555 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:08:43,558 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:08:43,558 - DEBUG - vpn - PID file removed!
+2019-03-24 16:08:43,558 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:08:43,559 - DEBUG - vpn - VPN is online
+2019-03-24 16:08:43,559 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:08:43,582 - ERROR - main - Failed to connect to: ba3.nordvpn.com.udp.ovpn
+2019-03-24 16:08:43,583 - DEBUG - main - global name 'sleep' is not defined
+2019-03-24 16:08:43,583 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:08:43,615 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:08:43,615 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:08:43,615 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh uk358.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:08:43,615 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:08:43,615 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:08:43,616 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:08:44,618 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:08:44,619 - DEBUG - vpn - PID file removed!
+2019-03-24 16:08:44,619 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:08:44,620 - DEBUG - vpn - VPN is online
+2019-03-24 16:08:44,620 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:08:44,642 - ERROR - main - Failed to connect to: uk358.nordvpn.com.udp.ovpn
+2019-03-24 16:08:44,643 - DEBUG - main - global name 'sleep' is not defined
+2019-03-24 16:08:44,643 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:08:44,676 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:08:44,676 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:08:44,677 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh us1819.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:08:44,677 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:08:44,677 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:08:44,677 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:08:45,679 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:08:45,680 - DEBUG - vpn - PID file removed!
+2019-03-24 16:08:45,680 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:08:45,681 - DEBUG - vpn - VPN is online
+2019-03-24 16:08:45,681 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:08:45,703 - ERROR - main - Failed to connect to: us1819.nordvpn.com.udp.ovpn
+2019-03-24 16:08:45,704 - DEBUG - main - global name 'sleep' is not defined
+2019-03-24 16:08:45,704 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:08:45,737 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:08:45,737 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:08:45,738 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh lv14.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:08:45,738 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:08:45,738 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:08:45,738 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:08:46,741 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:08:46,742 - DEBUG - vpn - PID file removed!
+2019-03-24 16:08:46,742 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:08:46,742 - DEBUG - vpn - VPN is online
+2019-03-24 16:08:46,742 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:08:46,764 - ERROR - main - Failed to connect to: lv14.nordvpn.com.udp.ovpn
+2019-03-24 16:08:46,764 - DEBUG - main - global name 'sleep' is not defined
+2019-03-24 16:08:46,764 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:08:46,795 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:08:46,795 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:08:46,795 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh es30.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:08:46,796 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:08:46,796 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:08:46,796 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:08:47,799 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:08:47,800 - DEBUG - vpn - PID file removed!
+2019-03-24 16:08:47,800 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:08:47,800 - DEBUG - vpn - VPN is online
+2019-03-24 16:08:47,801 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:08:47,822 - ERROR - main - Failed to connect to: es30.nordvpn.com.udp.ovpn
+2019-03-24 16:08:47,822 - DEBUG - main - global name 'sleep' is not defined
+2019-03-24 16:08:47,822 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:08:47,854 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:08:47,855 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:08:47,855 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh ca170.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:08:47,855 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:08:47,855 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:08:47,855 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:09:14,406 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:09:14,434 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:09:14,434 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:09:14,434 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh us1090.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:09:14,435 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:09:14,435 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:09:15,439 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:09:15,439 - DEBUG - vpn - PID file removed!
+2019-03-24 16:09:15,440 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:09:15,440 - DEBUG - vpn - VPN is online
+2019-03-24 16:09:17,442 - INFO - main - Checking server connection...
+2019-03-24 16:09:17,943 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:09:17,944 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:09:17,944 - WARNING - main - Server is not responding!
+2019-03-24 16:09:18,445 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:09:18,445 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:09:18,446 - WARNING - main - Server is not responding!
+2019-03-24 16:09:18,946 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:09:18,947 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:09:18,947 - WARNING - main - Server is not responding!
+2019-03-24 16:09:18,947 - ERROR - main - Server did not respond!
+2019-03-24 16:09:18,947 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:09:18,968 - ERROR - main - Failed to connect to: us1090.nordvpn.com.udp.ovpn
+2019-03-24 16:09:18,969 - DEBUG - main - Server didn't respond
+2019-03-24 16:09:18,969 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:09:19,005 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:09:19,005 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:09:19,005 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh br26.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:09:19,005 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:09:19,006 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:09:19,006 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:09:20,009 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:09:20,009 - DEBUG - vpn - PID file removed!
+2019-03-24 16:09:20,010 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:09:20,010 - DEBUG - vpn - VPN is online
+2019-03-24 16:09:22,011 - INFO - main - Checking server connection...
+2019-03-24 16:09:22,512 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:09:22,513 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:09:22,514 - WARNING - main - Server is not responding!
+2019-03-24 16:09:23,015 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:09:23,015 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:09:23,015 - WARNING - main - Server is not responding!
+2019-03-24 16:09:23,516 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:09:23,516 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:09:23,517 - WARNING - main - Server is not responding!
+2019-03-24 16:09:23,517 - ERROR - main - Server did not respond!
+2019-03-24 16:09:23,517 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:09:23,542 - ERROR - main - Failed to connect to: br26.nordvpn.com.udp.ovpn
+2019-03-24 16:09:23,542 - DEBUG - main - Server didn't respond
+2019-03-24 16:09:23,542 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:09:23,572 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:09:23,572 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:09:23,572 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh nl404.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:09:23,572 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:09:23,572 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:09:23,572 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:09:24,575 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:09:24,576 - DEBUG - vpn - PID file removed!
+2019-03-24 16:09:24,576 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:09:24,576 - DEBUG - vpn - VPN is online
+2019-03-24 16:09:26,579 - INFO - main - Checking server connection...
+2019-03-24 16:09:27,080 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:09:27,080 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:09:27,080 - WARNING - main - Server is not responding!
+2019-03-24 16:09:27,581 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:09:27,582 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:09:27,583 - WARNING - main - Server is not responding!
+2019-03-24 16:09:28,083 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:09:28,084 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:09:28,084 - WARNING - main - Server is not responding!
+2019-03-24 16:09:28,084 - ERROR - main - Server did not respond!
+2019-03-24 16:09:28,084 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:09:28,109 - ERROR - main - Failed to connect to: nl404.nordvpn.com.udp.ovpn
+2019-03-24 16:09:28,109 - DEBUG - main - Server didn't respond
+2019-03-24 16:09:28,109 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:09:28,145 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:09:28,145 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:09:28,145 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh cz32.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:09:28,145 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:09:28,145 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:09:28,145 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:09:29,149 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:09:29,149 - DEBUG - vpn - PID file removed!
+2019-03-24 16:09:29,150 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:09:29,150 - DEBUG - vpn - VPN is online
+2019-03-24 16:09:31,151 - INFO - main - Checking server connection...
+2019-03-24 16:09:31,652 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:09:31,653 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:09:31,653 - WARNING - main - Server is not responding!
+2019-03-24 16:09:32,154 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:09:32,154 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:09:32,154 - WARNING - main - Server is not responding!
+2019-03-24 16:09:32,655 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:09:32,655 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:09:32,656 - WARNING - main - Server is not responding!
+2019-03-24 16:09:32,656 - ERROR - main - Server did not respond!
+2019-03-24 16:09:32,656 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:09:32,676 - ERROR - main - Failed to connect to: cz32.nordvpn.com.udp.ovpn
+2019-03-24 16:09:32,677 - DEBUG - main - Server didn't respond
+2019-03-24 16:09:32,677 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:09:32,707 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:09:32,707 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:09:32,708 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh us2742.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:09:32,708 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:09:32,708 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:09:32,708 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:09:33,711 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:09:33,711 - DEBUG - vpn - PID file removed!
+2019-03-24 16:09:33,712 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:09:33,712 - DEBUG - vpn - VPN is online
+2019-03-24 16:09:35,714 - INFO - main - Checking server connection...
+2019-03-24 16:09:36,215 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:09:36,215 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:09:36,215 - WARNING - main - Server is not responding!
+2019-03-24 16:09:36,716 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:09:36,716 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:09:36,717 - WARNING - main - Server is not responding!
+2019-03-24 16:09:37,217 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:09:37,218 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:09:37,218 - WARNING - main - Server is not responding!
+2019-03-24 16:09:37,218 - ERROR - main - Server did not respond!
+2019-03-24 16:09:37,218 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:09:37,240 - ERROR - main - Failed to connect to: us2742.nordvpn.com.udp.ovpn
+2019-03-24 16:09:37,240 - DEBUG - main - Server didn't respond
+2019-03-24 16:09:37,240 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:09:37,272 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:09:37,273 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:09:37,273 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh de344.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:09:37,273 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:09:37,273 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:09:37,273 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:09:38,275 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:09:38,276 - DEBUG - vpn - PID file removed!
+2019-03-24 16:09:38,276 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:09:38,277 - DEBUG - vpn - VPN is online
+2019-03-24 16:09:40,279 - INFO - main - Checking server connection...
+2019-03-24 16:09:40,780 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:09:40,780 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:09:40,781 - WARNING - main - Server is not responding!
+2019-03-24 16:09:41,281 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:09:41,282 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:09:41,282 - WARNING - main - Server is not responding!
+2019-03-24 16:09:41,783 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:09:41,783 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:09:41,784 - WARNING - main - Server is not responding!
+2019-03-24 16:09:41,784 - ERROR - main - Server did not respond!
+2019-03-24 16:09:41,784 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:09:41,807 - ERROR - main - Failed to connect to: de344.nordvpn.com.udp.ovpn
+2019-03-24 16:09:41,807 - DEBUG - main - Server didn't respond
+2019-03-24 16:09:41,807 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:09:41,836 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:09:41,836 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:09:41,836 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh uk681.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:09:41,836 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:09:41,836 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:09:41,836 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:09:42,840 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:09:42,840 - DEBUG - vpn - PID file removed!
+2019-03-24 16:09:42,840 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:09:42,840 - DEBUG - vpn - VPN is online
+2019-03-24 16:09:44,843 - INFO - main - Checking server connection...
+2019-03-24 16:09:45,343 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:09:45,344 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:09:45,344 - WARNING - main - Server is not responding!
+2019-03-24 16:09:45,845 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:09:45,845 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:09:45,846 - WARNING - main - Server is not responding!
+2019-03-24 16:09:46,346 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:09:46,347 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:09:46,347 - WARNING - main - Server is not responding!
+2019-03-24 16:09:46,347 - ERROR - main - Server did not respond!
+2019-03-24 16:09:46,348 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:09:46,369 - ERROR - main - Failed to connect to: uk681.nordvpn.com.udp.ovpn
+2019-03-24 16:09:46,370 - DEBUG - main - Server didn't respond
+2019-03-24 16:09:46,370 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:09:46,402 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:09:46,402 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:09:46,402 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh us2686.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:09:46,402 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:09:46,403 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:09:46,403 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:09:47,406 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:09:47,406 - DEBUG - vpn - PID file removed!
+2019-03-24 16:09:47,407 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:09:47,407 - DEBUG - vpn - VPN is online
+2019-03-24 16:09:54,173 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:09:54,202 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:09:54,203 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:09:54,203 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh us1169.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:09:54,203 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:09:54,203 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:09:54,203 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:09:55,206 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:09:55,206 - DEBUG - vpn - PID file removed!
+2019-03-24 16:09:55,207 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:09:55,207 - DEBUG - vpn - VPN is online
+2019-03-24 16:11:37,070 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:11:37,100 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:11:37,101 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:11:37,101 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh us1485.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:11:37,101 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:11:37,101 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:11:37,101 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:11:38,104 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:11:38,104 - DEBUG - vpn - PID file removed!
+2019-03-24 16:11:38,104 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:11:38,105 - DEBUG - vpn - VPN is online
+2019-03-24 16:16:52,116 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:16:52,146 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:16:52,146 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:16:52,146 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh ch71.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:16:52,146 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:16:52,146 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:16:52,146 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:16:53,148 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:16:53,149 - DEBUG - vpn - PID file removed!
+2019-03-24 16:16:53,149 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:16:53,149 - DEBUG - vpn - VPN is online
+2019-03-24 16:17:19,471 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:17:19,502 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:17:19,502 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:17:19,502 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh us2088.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:17:19,503 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:17:19,503 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:17:19,503 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:17:20,505 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:17:20,506 - DEBUG - vpn - PID file removed!
+2019-03-24 16:17:20,506 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:17:20,506 - DEBUG - vpn - VPN is online
+2019-03-24 16:17:24,511 - INFO - main - Checking server connection...
+2019-03-24 16:17:25,011 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:17:25,012 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:17:25,012 - WARNING - main - Server is not responding!
+2019-03-24 16:17:25,513 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:17:25,513 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:17:25,513 - WARNING - main - Server is not responding!
+2019-03-24 16:17:26,014 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:17:26,015 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:17:26,015 - WARNING - main - Server is not responding!
+2019-03-24 16:17:26,015 - ERROR - main - Server did not respond!
+2019-03-24 16:17:26,015 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:17:26,037 - ERROR - main - Failed to connect to: us2088.nordvpn.com.udp.ovpn
+2019-03-24 16:17:26,037 - DEBUG - main - Server didn't respond
+2019-03-24 16:17:26,037 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:17:26,066 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:17:26,067 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:17:26,067 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh us1872.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:17:26,067 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:17:26,067 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:17:26,067 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:17:27,070 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:17:27,071 - DEBUG - vpn - PID file removed!
+2019-03-24 16:17:27,071 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:17:27,071 - DEBUG - vpn - VPN is online
+2019-03-24 16:17:31,075 - INFO - main - Checking server connection...
+2019-03-24 16:17:31,576 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:17:31,577 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:17:31,577 - WARNING - main - Server is not responding!
+2019-03-24 16:17:32,078 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:17:32,078 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:17:32,078 - WARNING - main - Server is not responding!
+2019-03-24 16:17:32,579 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:17:32,579 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:17:32,580 - WARNING - main - Server is not responding!
+2019-03-24 16:17:32,580 - ERROR - main - Server did not respond!
+2019-03-24 16:17:32,580 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:17:32,604 - ERROR - main - Failed to connect to: us1872.nordvpn.com.udp.ovpn
+2019-03-24 16:17:32,604 - DEBUG - main - Server didn't respond
+2019-03-24 16:17:32,604 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:17:32,636 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:17:32,637 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:17:32,637 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh uk423.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:17:32,637 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:17:32,637 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:17:32,637 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:17:33,640 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:17:33,640 - DEBUG - vpn - PID file removed!
+2019-03-24 16:17:33,641 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:17:33,641 - DEBUG - vpn - VPN is online
+2019-03-24 16:17:37,643 - INFO - main - Checking server connection...
+2019-03-24 16:17:38,144 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:17:38,145 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:17:38,145 - WARNING - main - Server is not responding!
+2019-03-24 16:17:38,646 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:17:38,646 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:17:38,647 - WARNING - main - Server is not responding!
+2019-03-24 16:17:39,148 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:17:39,148 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:17:39,148 - WARNING - main - Server is not responding!
+2019-03-24 16:17:39,148 - ERROR - main - Server did not respond!
+2019-03-24 16:17:39,149 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:17:39,172 - ERROR - main - Failed to connect to: uk423.nordvpn.com.udp.ovpn
+2019-03-24 16:17:39,172 - DEBUG - main - Server didn't respond
+2019-03-24 16:17:39,172 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:17:39,203 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:17:39,203 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:17:39,203 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh uk399.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:17:39,203 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:17:39,203 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:17:39,203 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:17:40,206 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:17:40,207 - DEBUG - vpn - PID file removed!
+2019-03-24 16:17:40,207 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:17:40,208 - DEBUG - vpn - VPN is online
+2019-03-24 16:22:09,182 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:22:09,212 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:22:09,213 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:22:09,213 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh de527.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:22:09,213 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:22:09,213 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:22:09,213 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:22:10,216 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:22:10,216 - DEBUG - vpn - PID file removed!
+2019-03-24 16:22:10,216 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:22:10,216 - DEBUG - vpn - VPN is online
+2019-03-24 16:22:14,221 - INFO - main - Checking server connection...
+2019-03-24 16:22:14,722 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:22:14,722 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:22:14,722 - WARNING - main - Server is not responding!
+2019-03-24 16:22:15,223 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:22:15,224 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:22:15,224 - WARNING - main - Server is not responding!
+2019-03-24 16:22:15,725 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:22:15,725 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:22:15,725 - WARNING - main - Server is not responding!
+2019-03-24 16:22:15,726 - ERROR - main - Server did not respond!
+2019-03-24 16:22:15,726 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:22:15,747 - ERROR - main - Failed to connect to: de527.nordvpn.com.udp.ovpn
+2019-03-24 16:22:15,748 - DEBUG - main - Server didn't respond
+2019-03-24 16:22:15,748 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:22:15,782 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:22:15,782 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:22:15,782 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh uk725.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:22:15,782 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:22:15,782 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:22:15,782 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:22:16,785 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:22:16,786 - DEBUG - vpn - PID file removed!
+2019-03-24 16:22:16,786 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:22:16,786 - DEBUG - vpn - VPN is online
+2019-03-24 16:22:20,791 - INFO - main - Checking server connection...
+2019-03-24 16:22:21,291 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:22:21,292 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:22:21,292 - WARNING - main - Server is not responding!
+2019-03-24 16:22:21,792 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:22:21,793 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:22:21,793 - WARNING - main - Server is not responding!
+2019-03-24 16:22:22,294 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:22:22,294 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:22:22,294 - WARNING - main - Server is not responding!
+2019-03-24 16:22:22,295 - ERROR - main - Server did not respond!
+2019-03-24 16:22:22,295 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:22:22,316 - ERROR - main - Failed to connect to: uk725.nordvpn.com.udp.ovpn
+2019-03-24 16:22:22,317 - DEBUG - main - Server didn't respond
+2019-03-24 16:22:22,317 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:22:22,349 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:22:22,349 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:22:22,349 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh us1082.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:22:22,349 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:22:22,349 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:22:22,349 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:22:23,352 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:22:23,353 - DEBUG - vpn - PID file removed!
+2019-03-24 16:22:23,353 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:22:23,353 - DEBUG - vpn - VPN is online
+2019-03-24 16:22:27,358 - INFO - main - Checking server connection...
+2019-03-24 16:22:27,859 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:22:27,859 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:22:27,859 - WARNING - main - Server is not responding!
+2019-03-24 16:22:28,360 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:22:28,361 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:22:28,361 - WARNING - main - Server is not responding!
+2019-03-24 16:22:28,862 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:22:28,862 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:22:28,862 - WARNING - main - Server is not responding!
+2019-03-24 16:22:28,863 - ERROR - main - Server did not respond!
+2019-03-24 16:22:28,863 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:22:28,889 - ERROR - main - Failed to connect to: us1082.nordvpn.com.udp.ovpn
+2019-03-24 16:22:28,889 - DEBUG - main - Server didn't respond
+2019-03-24 16:22:28,889 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:22:28,918 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:22:28,919 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:22:28,919 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh se24.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:22:28,919 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:22:28,919 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:22:28,919 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:22:29,922 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:22:29,923 - DEBUG - vpn - PID file removed!
+2019-03-24 16:22:29,923 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:22:29,923 - DEBUG - vpn - VPN is online
+2019-03-24 16:22:33,927 - INFO - main - Checking server connection...
+2019-03-24 16:22:34,428 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:22:34,429 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:22:34,429 - WARNING - main - Server is not responding!
+2019-03-24 16:22:34,929 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:22:34,930 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:22:34,930 - WARNING - main - Server is not responding!
+2019-03-24 16:22:35,431 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:22:35,431 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:22:35,432 - WARNING - main - Server is not responding!
+2019-03-24 16:22:35,432 - ERROR - main - Server did not respond!
+2019-03-24 16:22:35,432 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:22:35,457 - ERROR - main - Failed to connect to: se24.nordvpn.com.udp.ovpn
+2019-03-24 16:22:35,457 - DEBUG - main - Server didn't respond
+2019-03-24 16:22:35,457 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:22:35,489 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:22:35,490 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:22:35,490 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh us2773.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:22:35,490 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:22:35,490 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:22:35,490 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:22:36,493 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:22:36,495 - DEBUG - vpn - PID file removed!
+2019-03-24 16:22:36,495 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:22:36,495 - DEBUG - vpn - VPN is online
+2019-03-24 16:22:40,500 - INFO - main - Checking server connection...
+2019-03-24 16:22:41,000 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:22:41,001 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:22:41,001 - WARNING - main - Server is not responding!
+2019-03-24 16:22:41,502 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:22:41,502 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:22:41,502 - WARNING - main - Server is not responding!
+2019-03-24 16:22:42,003 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:22:42,003 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:22:42,003 - WARNING - main - Server is not responding!
+2019-03-24 16:22:42,004 - ERROR - main - Server did not respond!
+2019-03-24 16:22:42,004 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:22:42,026 - ERROR - main - Failed to connect to: us2773.nordvpn.com.udp.ovpn
+2019-03-24 16:22:42,026 - DEBUG - main - Server didn't respond
+2019-03-24 16:22:42,026 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:22:42,059 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:22:42,059 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:22:42,059 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh at20.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:22:42,059 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:22:42,059 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:22:42,059 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:22:43,062 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:22:43,062 - DEBUG - vpn - PID file removed!
+2019-03-24 16:22:43,063 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:22:43,063 - DEBUG - vpn - VPN is online
+2019-03-24 16:23:01,486 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:23:01,514 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:23:01,514 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:23:01,514 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh au222.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:23:01,514 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:23:01,514 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:23:01,514 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:23:02,517 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:23:02,518 - DEBUG - vpn - PID file removed!
+2019-03-24 16:23:02,518 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:23:02,519 - DEBUG - vpn - VPN is online
+2019-03-24 16:23:06,521 - INFO - main - Checking server connection...
+2019-03-24 16:23:07,022 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:23:12,196 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:23:17,341 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:23:22,008 - INFO - main - Connected at: au222.nordvpn.com.udp.ovpn
+2019-03-24 16:24:01,923 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:24:01,930 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:24:01,930 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:24:01,930 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh us2703.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:24:01,930 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:24:01,930 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:24:01,930 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:24:02,934 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:24:02,934 - DEBUG - vpn - PID file removed!
+2019-03-24 16:24:02,935 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:24:02,935 - DEBUG - vpn - VPN is online
+2019-03-24 16:24:06,936 - INFO - main - Checking server connection...
+2019-03-24 16:24:07,437 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:24:09,012 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:24:09,012 - WARNING - main - Server is not responding!
+2019-03-24 16:24:09,513 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:24:11,060 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:24:11,060 - WARNING - main - Server is not responding!
+2019-03-24 16:24:11,561 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:24:13,117 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:24:13,117 - WARNING - main - Server is not responding!
+2019-03-24 16:24:13,117 - ERROR - main - Server did not respond!
+2019-03-24 16:24:13,117 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:24:13,140 - ERROR - main - Failed to connect to: us2703.nordvpn.com.udp.ovpn
+2019-03-24 16:24:13,141 - DEBUG - main - Server didn't respond
+2019-03-24 16:24:13,141 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:24:13,151 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:24:13,151 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:24:13,151 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh us1597.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:24:13,151 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:24:13,152 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:24:13,152 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:24:14,156 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:24:14,157 - DEBUG - vpn - PID file removed!
+2019-03-24 16:24:14,157 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:24:14,158 - DEBUG - vpn - VPN is online
+2019-03-24 16:24:40,778 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:24:40,784 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:24:40,784 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:24:40,784 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh fr96.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:24:40,784 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:24:40,784 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:24:40,784 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:24:41,788 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:24:41,788 - DEBUG - vpn - PID file removed!
+2019-03-24 16:24:41,788 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:24:41,789 - DEBUG - vpn - VPN is online
+2019-03-24 16:24:45,791 - INFO - main - Checking server connection...
+2019-03-24 16:24:46,292 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:24:50,470 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:24:54,483 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:24:58,008 - INFO - main - Connected at: fr96.nordvpn.com.udp.ovpn
+2019-03-24 16:25:00,188 - INFO - main - Restarting process...
+2019-03-24 16:25:00,188 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:25:00,198 - DEBUG - main - Checking if VPN is online...
+2019-03-24 16:25:00,199 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:25:00,221 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:25:00,221 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:25:00,221 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh br13.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:25:00,221 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:25:00,222 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:25:00,222 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:25:01,226 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:25:01,226 - DEBUG - vpn - PID file removed!
+2019-03-24 16:25:01,226 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:25:01,227 - DEBUG - vpn - VPN is online
+2019-03-24 16:25:05,231 - INFO - main - Checking server connection...
+2019-03-24 16:25:05,732 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:25:06,687 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:25:07,637 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:25:08,069 - INFO - main - Connected at: br13.nordvpn.com.udp.ovpn
+2019-03-24 16:54:54,251 - INFO - main - Restarting process...
+2019-03-24 16:54:54,252 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:54:54,262 - DEBUG - main - Checking if VPN is online...
+2019-03-24 16:54:54,262 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:54:54,282 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:54:54,282 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:54:54,282 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh no50.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:54:54,282 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:54:54,283 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:54:54,283 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:54:55,286 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:54:55,287 - DEBUG - vpn - PID file removed!
+2019-03-24 16:54:55,287 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:54:55,287 - DEBUG - vpn - VPN is online
+2019-03-24 16:54:59,287 - INFO - main - Checking server connection...
+2019-03-24 16:54:59,788 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:55:01,402 - DEBUG - main - HTTPSConnectionPool(host='google.com', port=443): Read timed out. (read timeout=1)
+2019-03-24 16:55:01,402 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:55:01,403 - WARNING - main - Server is not responding!
+2019-03-24 16:55:01,903 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:55:03,468 - DEBUG - main - HTTPSConnectionPool(host='google.com', port=443): Read timed out. (read timeout=1)
+2019-03-24 16:55:03,468 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:55:03,468 - WARNING - main - Server is not responding!
+2019-03-24 16:55:03,969 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:55:05,534 - DEBUG - main - HTTPSConnectionPool(host='google.com', port=443): Read timed out. (read timeout=1)
+2019-03-24 16:55:05,534 - ERROR - main - Failed to ping https://google.com!
+2019-03-24 16:55:05,534 - WARNING - main - Server is not responding!
+2019-03-24 16:55:05,534 - ERROR - main - Server did not respond!
+2019-03-24 16:55:05,534 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:55:05,557 - ERROR - main - Failed to connect to: no50.nordvpn.com.udp.ovpn
+2019-03-24 16:55:05,557 - DEBUG - main - Server didn't respond
+2019-03-24 16:55:05,557 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:55:05,566 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:55:05,566 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:55:05,566 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh ch96.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:55:05,567 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:55:05,567 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:55:05,567 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:55:06,571 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:55:06,572 - DEBUG - vpn - PID file removed!
+2019-03-24 16:55:06,572 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:55:06,572 - DEBUG - vpn - VPN is online
+2019-03-24 16:55:10,576 - INFO - main - Checking server connection...
+2019-03-24 16:55:11,077 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:55:13,013 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:55:13,977 - DEBUG - main - Pinging https://google.com
+2019-03-24 16:55:14,442 - INFO - main - Connected at: ch96.nordvpn.com.udp.ovpn
+2019-03-24 16:56:31,809 - INFO - main - Restarting process...
+2019-03-24 16:56:31,809 - DEBUG - main - Collecting servers addresses from /etc/openvpn/ovpn_udp/
+2019-03-24 16:56:31,821 - DEBUG - main - Checking if VPN is online...
+2019-03-24 16:56:31,821 - DEBUG - vpn - Killing VPN process
+2019-03-24 16:56:31,843 - DEBUG - vpn - Pid path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt
+2019-03-24 16:56:31,843 - DEBUG - vpn - Script path: /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh
+2019-03-24 16:56:31,844 - DEBUG - vpn - CMD: gnome-terminal -e ' sh -c "sudo echo $$ >> /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/pid.txt; /home/rnsbrum/Desktop/dev/vpn/vpn/scripts/test.sh dk53.nordvpn.com.udp.ovpn; sleep 20"'
+2019-03-24 16:56:31,844 - DEBUG - vpn - Removing old PID file...
+2019-03-24 16:56:31,844 - WARNING - vpn - PID file was already removed or non existent!
+2019-03-24 16:56:31,844 - DEBUG - vpn - Executing cmd...
+2019-03-24 16:56:32,849 - DEBUG - vpn - Removing PID file...
+2019-03-24 16:56:32,850 - DEBUG - vpn - PID file removed!
+2019-03-24 16:56:32,850 - DEBUG - vpn - Setting VPN status...
+2019-03-24 16:56:32,850 - DEBUG - vpn - VPN is online
