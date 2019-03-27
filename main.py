@@ -31,44 +31,65 @@ logger.addHandler(s_handler)
 vpn = Vpn()
 
 def main():
-    servers = get_ovpn_servers()
-    server_index = random.randint(1, len(servers))
+    if not check_ovpn_files():
+        logger.error("Ovpn files were not found!")
+        return  
 
     if vpn.is_vpn_online():
         logger.debug("Checking if VPN is online...")
         vpn.kill()
+
+    servers = get_ovpn_servers()
+    start_vpn(servers)
+
+
+def start_vpn(servers):
+    logger.debug("Starting vpn process...")
+    server_index = random.randint(1, len(servers))
 
     try:
         vpn.start(servers[server_index])
         time.sleep(4)
         check_server_connection()
         logger.info('Connected at: {}'.format(servers[server_index]))
+
     except Exception as e:        
         vpn.kill()
         logger.error('Failed to connect to: {}'.format(servers[server_index]))
         logger.debug(e)
-        main()
+
+    input("Press ENTER to connect to a different server / Ctrl + z to exit")
+    logger.info("Restarting VPN...")        
+    start_vpn(servers)
     
-    input("Press ENTER to connect to a different server")
-    logger.info("Restarting process...")
-    main()
 
 def get_ovpn_servers():
-    mypath = "/etc/openvpn/ovpn_udp/"
+    ovpn_files_path = "/etc/openvpn/ovpn_udp/"
     servers = []
-    logger.debug('Collecting servers addresses from {}'.format(mypath))
+    logger.debug('Collecting servers addresses from {}'.format(ovpn_files_path))
     
     try:
-        if not os.path.isdir(mypath):
+        if not os.path.isdir(ovpn_files_path):
             raise Exception() 
 
-        for (dirpath, dirnames, filenames) in walk(mypath):
+        for (dirpath, dirnames, filenames) in walk(ovpn_files_path):
             servers.extend(filenames)
             break
     except:
         logger.error("Failed to collect addresses! Check if NordVPN's ovpn files were installed." )
 
     return servers
+
+def check_ovpn_files():
+    logger.debug("Checking ovpn files...")
+    ovpn_files_path = "/etc/openvpn/ovpn_udp/"
+    flag = os.path.exists(ovpn_files_path)
+
+    if not flag: 
+        logger.error("Ovpn file were not found")
+        raise Exception("Ovpn files directory does not exist")
+    else:
+        return True
 
 def is_internet_on():
     try:
@@ -78,6 +99,17 @@ def is_internet_on():
         logger.debug(e) 
         logger.error("Failed to ping https://google.com!")
         raise Exception("No internet")
+
+def is_OpenVPN_installed():
+    logger.debug("Checking ovpn files...")
+    ovpn_files_path = "/etc/openvpn/ovpn_udp/"
+    flag = os.path.exists(ovpn_files_path)
+
+    if not flag: 
+        logger.error("Ovpn file were not found")
+        raise Exception("Ovpn files directory does not exist")
+    else:
+        return True
 
 def check_server_connection():
     logger.info("Checking server connection...")
