@@ -69,7 +69,7 @@ class Vpn(object):
             raise Exception("OpenVPN connection failed")
 
     def wait_for_user():
-
+        pass
 
     def set_OpenVPN_status(self):
         """
