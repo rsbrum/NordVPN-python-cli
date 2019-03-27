@@ -26,7 +26,7 @@ class Vpn(object):
         script_path = os.path.dirname(os.path.realpath(__file__)) + '/scripts/test.sh'
 
         cmd = "gnome-terminal -e ' sh -c \"sudo echo $$ >> {}; {} {}; sleep 20\"'" \
-            .format(pid_path, script_path, server_address)
+            .format(pid_path, script_path, server_address)f
 
         logger.debug('Pid path: {}'.format(pid_path))
         logger.debug('Script path: {}'.format(script_path))
@@ -42,15 +42,21 @@ class Vpn(object):
         logger.debug("Executing cmd...")
         subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.PIPE, 
                         stdout=subprocess.PIPE, shell=True)
+
         time.sleep(1)
         
+        while os.path.exists(pid_path) == False:
+            pass
+
         if os.path.exists(pid_path):
-            logger.debug("Removing PID file...")
+            logger.debug("Getting PID file...")
+
             with open(pid_path, 'r') as file:
                 self.pid = int(file.read())
                 file.close()
                 os.remove(pid_path)
                 logger.debug("PID file removed!")
+
         else:
             logger.error("PID file wasn't created")
             raise Exception("Failed to get OpenVPN's PID")
@@ -62,7 +68,9 @@ class Vpn(object):
             self.kill()
             raise Exception("OpenVPN connection failed")
 
-    
+    def wait_for_user():
+
+
     def set_OpenVPN_status(self):
         """
             Checks if the OpenVPN process is active
