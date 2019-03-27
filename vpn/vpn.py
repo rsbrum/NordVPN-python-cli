@@ -45,8 +45,9 @@ class Vpn(object):
 
         time.sleep(1)
         
-        while os.path.exists(pid_path) == False:
-            pass
+        flag = os.path.exists(pid_path)
+        while flag == False:
+            logger.debug('in while loop')
 
         if os.path.exists(pid_path):
             logger.debug("Getting PID file...")
