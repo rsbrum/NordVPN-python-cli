@@ -26,7 +26,7 @@ class Vpn(object):
         script_path = os.path.dirname(os.path.realpath(__file__)) + '/scripts/test.sh'
 
         cmd = "gnome-terminal -e ' sh -c \"sudo echo $$ >> {}; {} {}; sleep 20\"'" \
-            .format(pid_path, script_path, server_address)f
+            .format(pid_path, script_path, server_address)
 
         logger.debug('Pid path: {}'.format(pid_path))
         logger.debug('Script path: {}'.format(script_path))
