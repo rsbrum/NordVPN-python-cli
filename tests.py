@@ -13,6 +13,6 @@ def create_auth_files(username, pwd):
         try:
             os.system(cmd)
         except:
-            print("error")
+            logger.warning('Failed to execute shell command!')
 
 create_auth_files('rnsbrum@gmail.com', 'Cel91476045!')

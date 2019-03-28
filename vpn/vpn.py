@@ -80,7 +80,7 @@ class Vpn(object):
                 pass
 
         if not is_running:
-            logger.debug("checking files existance await user")
+            logger.debug("Checking for openvpn process")
             time.sleep(1)
             self.wait_for_user(pid_path)
         else:

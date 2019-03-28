@@ -1,4 +1,8 @@
-import logging, os, random, time, requests
+import logging
+import os
+import random
+import time
+import requests
 from os import walk
 from vpn.vpn import Vpn
 
@@ -13,12 +17,13 @@ write tests
 connect to a random server - done
 iterate through servers - done 
 """
-formatter = logging.Formatter(fmt='%(asctime)s - %(levelname)s - %(module)s - %(message)s')
+formatter = logging.Formatter(
+    fmt='%(asctime)s - %(levelname)s - %(module)s - %(message)s')
 
 handler = logging.StreamHandler()
 handler.setFormatter(formatter)
 
-f_handler = logging.FileHandler('file.log')   
+f_handler = logging.FileHandler('file.log')
 f_handler.setFormatter(formatter)
 s_handler = logging.StreamHandler()
 s_handler.setFormatter(formatter)
@@ -30,14 +35,22 @@ logger.addHandler(s_handler)
 
 vpn = Vpn()
 
+username = ''
+password = ''
+
+
 def main():
     if not check_ovpn_files():
         logger.error("Ovpn files were not found!")
-        return  
+        logger.info("Download ovpn files from the link in the github page!")
+        return
 
     if vpn.is_vpn_online():
         logger.warning("VPN was already online...")
         vpn.kill()
+
+    if not check_auth_files():
+        create_auth_files(username, password)
 
     servers = get_ovpn_servers()
     start_vpn(servers)
@@ -53,63 +66,69 @@ def start_vpn(servers):
         check_server_connection()
         logger.info('Connected at: {}'.format(servers[server_index]))
 
-    except Exception as e:        
+    except Exception as e:
         vpn.kill()
         logger.error('Failed to connect to: {}'.format(servers[server_index]))
         logger.debug(e)
 
     input("Press ENTER to connect to a different server / Ctrl + z to exit")
-    logger.info("Restarting VPN...")        
+    logger.info("Restarting VPN...")
     start_vpn(servers)
-    
+
 
 def get_ovpn_servers():
     ovpn_files_path = "/etc/openvpn/ovpn_udp/"
     servers = []
-    logger.debug('Collecting servers addresses from {}'.format(ovpn_files_path))
-    
+    logger.debug(
+        'Collecting servers addresses from {}'.format(ovpn_files_path))
+
     try:
         if not os.path.isdir(ovpn_files_path):
-            raise Exception() 
+            raise Exception()
 
         for (dirpath, dirnames, filenames) in walk(ovpn_files_path):
             servers.extend(filenames)
             break
     except:
-        logger.error("Failed to collect addresses! Check if NordVPN's ovpn files were installed." )
+        logger.error(
+            "Failed to collect addresses! Check if NordVPN's ovpn files were installed.")
 
     return servers
+
 
 def check_ovpn_files():
     logger.debug("Checking ovpn files...")
     ovpn_files_path = "/etc/openvpn/ovpn_udp/"
     flag = os.path.exists(ovpn_files_path)
 
-    if not flag: 
+    if not flag:
         logger.error("Ovpn file were not found")
         raise Exception("Ovpn files directory does not exist")
     else:
         return True
+
 
 def is_internet_on():
     try:
         logger.debug("Pinging https://google.com")
         requests.get('https://google.com', timeout=1)
     except Exception as e:
-        logger.debug(e) 
+        logger.debug(e)
         logger.error("Failed to ping https://google.com!")
         raise Exception("No internet")
+
 
 def is_OpenVPN_installed():
     logger.debug("Checking ovpn files...")
     ovpn_files_path = "/etc/openvpn/"
     flag = os.path.exists(ovpn_files_path)
 
-    if not flag: 
+    if not flag:
         logger.error("Ovpn file were not found")
         raise Exception("Ovpn files directory does not exist")
     else:
         return True
+
 
 def check_server_connection():
     logger.info("Checking server connection...")
@@ -121,15 +140,36 @@ def check_server_connection():
         except:
             logger.warning("Server is not responding!")
             errors += 1
-        
+
         if errors == 3:
             logger.error("Server did not respond!")
             raise Exception("Server didn't respond")
 
+
+def check_auth_files():
+    logger.debug('Checking auth files...')
+    path = "/etc/openvpn/ovpn_udp/pass.txt"
+
+    if os.path.isfile(path):
+        return True
+
+    return False
+
+
 def create_auth_files(username, pwd):
-    logger.info("Appending auth credentials to ovpn files...")
+    logger.debug('Creating auth files...')
+    #logger.info("Appending auth credentials to ovpn files...")
     path = "/etc/openvpn/ovpn_udp/"
-    cmd = "cd {}; echo $'{}\n{}'".format(path, username, pwd)
+    cmds = ["sudo echo '{}\n{}' > pass.txt".format(username, pwd),
+            "sudo cp pass.txt {}".format(path),
+            "sudo chmod +x ./credentials.sh",
+            "sudo cp credentials.sh {}".format(path),
+            "cd {}; sudo ./credentials.sh".format(path)]
+
+    for cmd in cmds:
+        os.system(cmd)
+
+    logger.info('Auth appended to ovpn files!')
 
 
 if __name__ == '__main__':
