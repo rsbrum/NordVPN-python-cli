@@ -102,7 +102,7 @@ def is_internet_on():
 
 def is_OpenVPN_installed():
     logger.debug("Checking ovpn files...")
-    ovpn_files_path = "/etc/openvpn/ovpn_udp/"
+    ovpn_files_path = "/etc/openvpn/"
     flag = os.path.exists(ovpn_files_path)
 
     if not flag: 
@@ -126,7 +126,8 @@ def check_server_connection():
             logger.error("Server did not respond!")
             raise Exception("Server didn't respond")
 
-def create_auth_file(username, pwd):
+def create_auth_files(username, pwd):
+    logger.info("Appending auth credentials to ovpn files...")
     path = "/etc/openvpn/ovpn_udp/"
     cmd = "cd {}; echo $'{}\n{}'".format(path, username, pwd)
 

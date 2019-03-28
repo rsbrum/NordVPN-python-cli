@@ -1,4 +1,4 @@
-import subprocess, os, time, logging, psutil
+import subprocess, os, time, logging
 
 logger = logging.getLogger('root')
 
@@ -43,21 +43,18 @@ class Vpn(object):
         subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.PIPE, 
                         stdout=subprocess.PIPE, shell=True)
 
-        time.sleep(1)
-
-        while self.check_if_process_running( "openvpn" ) == False:
-            pass
+        self.wait_for_user(pid_path)       
 
         if os.path.exists(pid_path):
             logger.debug("Getting PID file...")
 
             with open(pid_path, 'r') as file:
                 self.pid = int(file.read())
-                file.close()	
+                file.close()
                 os.remove(pid_path)
                 logger.debug("PID file removed!")
 
-        else:	
+        else:
             logger.error("PID file wasn't created")
             raise Exception("Failed to get OpenVPN's PID")
 
@@ -68,20 +65,14 @@ class Vpn(object):
             self.kill()
             raise Exception("OpenVPN connection failed")
 
-    def wait_for_user(self):
-        pass
- 
-    def check_if_process_running(self, processName):
-        #Iterate over the all the running process
-        for proc in psutil.process_iter():
-            try:
-                # Check if process name contains the given name string.
-                if processName.lower() in proc.name().lower():
-                    return True
-            except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
-                pass
-
-        return False
+    def wait_for_user(self, pid_path):
+        
+        if not os.path.exists(pid_path):
+            time.sleep(1)
+            self.wait_for_user(pid_path)
+        else:
+            logger.debug("PID file was created...")
+            pass
 
     def set_OpenVPN_status(self):
         """
