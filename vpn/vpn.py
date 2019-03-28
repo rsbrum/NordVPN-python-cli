@@ -70,7 +70,7 @@ class Vpn(object):
         if not os.path.exists(pid_path):
             logger.debug("checking files existance await user")
             time.sleep(1)
-            self.wait_for_user(pid_path)
+            self.wait_for_user(self, pid_path)
         else:
             logger.debug("PID file was created...")
             pass
