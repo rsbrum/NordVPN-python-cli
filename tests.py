@@ -3,8 +3,13 @@ import os
 def create_auth_files(username, pwd):
     #logger.info("Appending auth credentials to ovpn files...")
     path = "/etc/openvpn/ovpn_udp/"
-    cmd = "cd {}; sudo echo $'{}\n{}' > pass.txt".format(path, username, pwd)
+    cmds = ["sudo echo $'{}\n{}' > pass.txt".format(username, pwd), 
+            "sudo cp pass.txt {}".format(path),
+            "sudo chmod +x ./credentials.sh",
+            "sudo cp credentials.sh {}".format(path),
+            "cd {}; sudo ./credentials.sh".format(path)]
     
-    os.system(cmd)
+    for cmd in cmds:
+        os.system(cmd)
 
 create_auth_files('username', 'pwd')
