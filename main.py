@@ -36,7 +36,7 @@ def main():
         return  
 
     if vpn.is_vpn_online():
-        logger.debug("Checking if VPN is online...")
+        logger.warning("VPN was already online...")
         vpn.kill()
 
     servers = get_ovpn_servers()
