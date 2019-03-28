@@ -3,7 +3,7 @@ import os
 def create_auth_files(username, pwd):
     #logger.info("Appending auth credentials to ovpn files...")
     path = "/etc/openvpn/ovpn_udp/"
-    cmds = ["sudo echo $'{}\n{}' > pass.txt".format(username, pwd), 
+    cmds = ["sudo echo '{}\n{}' > pass.txt".format(username, pwd), 
             "sudo cp pass.txt {}".format(path),
             "sudo chmod +x ./credentials.sh",
             "sudo cp credentials.sh {}".format(path),
@@ -15,4 +15,4 @@ def create_auth_files(username, pwd):
         except:
             print("error")
 
-create_auth_files('username', 'pwd')
+create_auth_files('rnsbrum@gmail.com', 'Cel91476045!')
