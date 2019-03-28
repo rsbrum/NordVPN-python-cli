@@ -10,6 +10,9 @@ def create_auth_files(username, pwd):
             "cd {}; sudo ./credentials.sh".format(path)]
     
     for cmd in cmds:
-        os.system(cmd)
+        try:
+            os.system(cmd)
+        except:
+            print("error")
 
 create_auth_files('username', 'pwd')
