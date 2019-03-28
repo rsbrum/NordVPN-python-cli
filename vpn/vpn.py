@@ -1,4 +1,4 @@
-import subprocess, os, time, logging
+import subprocess, os, time, logging, psutil
 
 logger = logging.getLogger('root')
 
@@ -66,15 +66,39 @@ class Vpn(object):
             raise Exception("OpenVPN connection failed")
 
     def wait_for_user(self, pid_path):
-        
-        if not os.path.exists(pid_path):
+
+        is_running = False
+        processName = 'openvpn'
+        for proc in psutil.process_iter():
+            try:
+                # Check if process name contains the given name string.
+                if processName.lower() in proc.name().lower():
+                    is_running = True
+                else: 
+                    is_running = False
+            except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
+                pass
+
+        if not is_running:
             logger.debug("checking files existance await user")
             time.sleep(1)
-            self.wait_for_user(self, pid_path)
+            self.wait_for_user(pid_path)
         else:
             logger.debug("PID file was created...")
             pass
 
+
+    def check_if_process_running(self, processName):
+        #Iterate over the all the running process
+        for proc in psutil.process_iter():
+            try:
+                # Check if process name contains the given name string.
+                if processName.lower() in proc.name().lower():
+                    return True
+            except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
+                pass
+
+        return False
     def set_OpenVPN_status(self):
         """
             Checks if the OpenVPN process is active
