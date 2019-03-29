@@ -68,7 +68,7 @@ class Vpn(object):
             raise Exception("OpenVPN connection failed")
 
     def wait_for_user(self, tries):
-        tries++
+        tries += 1 
         is_running = False
         processName = 'openvpn'
         for proc in psutil.process_iter():
