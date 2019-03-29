@@ -1,7 +1,9 @@
 # OpenVPn/NordVPN Linux CLI interface 
-This script will help you to quickly iterate through VPN servers. It uses interfaces with the OpenVPN cli and uses NordVPN servers, since it has the most amount of available servers. 
+This script will help you to quickly iterate through NordVPN's servers. It interfaces with the OpenVPN cli and uses NordVPN servers because it has the biggest amount of servers. 
 
-You can use it to mask any process you wan't and avoid detection. Simply remove the "await_user()" method in the VPN's "start()" method and the "input()" in the "main()" method in main.py. That way it won't wait for any user input.  
+You can use it to mask any pocess you want and avoid detection. 
+
+If you want to automate it, remove the "await_user()" method in the VPN's "start()" method and the "input()" in the "main()" method in main.py. That way it won't wait for any user input.  
 
 
 # To install - This will install OpenVPN and download NordVPN's ovpn files
