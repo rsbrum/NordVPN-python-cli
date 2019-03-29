@@ -103,7 +103,7 @@ def check_ovpn_files():
 
     if not flag:
         logger.error("Ovpn file were not found")
-        raise Exception("Ovpn files directory does not exist")
+        return False
     else:
         return True
 

@@ -42,8 +42,10 @@ class Vpn(object):
         logger.debug("Executing cmd...")
         subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.PIPE, 
                         stdout=subprocess.PIPE, shell=True)
-
-        self.wait_for_user(pid_path)       
+        try:
+            self.wait_for_user(0)       
+        except:
+            return
 
         if os.path.exists(pid_path):
             logger.debug("Getting PID file...")
@@ -65,8 +67,8 @@ class Vpn(object):
             self.kill()
             raise Exception("OpenVPN connection failed")
 
-    def wait_for_user(self, pid_path):
-
+    def wait_for_user(self, tries):
+        tries++
         is_running = False
         processName = 'openvpn'
         for proc in psutil.process_iter():
@@ -82,11 +84,15 @@ class Vpn(object):
         if not is_running:
             logger.debug("Checking for openvpn process")
             time.sleep(1)
-            self.wait_for_user(pid_path)
+            self.wait_for_user(tries)
         else:
             logger.debug("PID file was created...")
             pass
 
+        if tries == 21:
+            logger.error("User did not respond!")
+            raise Exception("User did not respond!")
+            
 
     def check_if_process_running(self, processName):
         #Iterate over the all the running process
