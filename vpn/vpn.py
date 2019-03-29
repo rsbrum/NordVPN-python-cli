@@ -42,10 +42,8 @@ class Vpn(object):
         logger.debug("Executing cmd...")
         subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.PIPE, 
                         stdout=subprocess.PIPE, shell=True)
-        try:
-            self.wait_for_user(0)       
-        except:
-            return
+
+        self.wait_for_user(0)       
 
         if os.path.exists(pid_path):
             logger.debug("Getting PID file...")
