@@ -1,8 +1,4 @@
-import logging
-import os
-import random
-import time
-import requests
+import logging, os, random, time, requests
 from os import walk
 from vpn.vpn import Vpn
 
@@ -25,7 +21,7 @@ logger.addHandler(s_handler)
 vpn = Vpn()
 
 ##################################################
-#     Provide your OpenVPN credentials here      #
+#     Provide your NordVPN credentials here      #
 #                                                #
 username = 'email@email.com'                     # 
 password = 'password'                            #
