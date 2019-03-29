@@ -68,8 +68,14 @@ class Vpn(object):
             raise Exception("OpenVPN connection failed")
 
     def wait_for_user(self, tries):
+        tries += 1
+        if tries == 21:
+            logger.error("User did not respond!")
+            raise Exception("User did not respond!")
+
         is_running = False
         processName = 'openvpn'
+
         for proc in psutil.process_iter():
             try:
                 # Check if process name contains the given name string.
@@ -87,11 +93,6 @@ class Vpn(object):
         else:
             logger.debug("PID file was created...")
             pass
-
-        if tries == 21:
-            logger.error("User did not respond!")
-            raise Exception("User did not respond!")
-        tries += 1     
 
     def check_if_process_running(self, processName):
         #Iterate over the all the running process
