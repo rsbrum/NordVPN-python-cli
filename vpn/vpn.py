@@ -43,7 +43,7 @@ class Vpn(object):
         subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.PIPE, 
                         stdout=subprocess.PIPE, shell=True)
 
-        self.wait_for_user(0)       
+        self.__wait_for_user(0)       
 
         if os.path.exists(pid_path):
             logger.debug("Getting PID file...")
@@ -58,14 +58,14 @@ class Vpn(object):
             logger.error("PID file wasn't created")
             raise Exception("Failed to get OpenVPN's PID")
 
-        self.set_OpenVPN_status()
+        self.__set_OpenVPN_status()
         
         if not self.status:
             logger.debug("VPN PID wasn't alive") 
             self.kill()
             raise Exception("OpenVPN connection failed")
-
-    def wait_for_user(self, tries):
+    
+    def __wait_for_user(self, tries):
         tries += 1
         if tries == 21:
             logger.error("User did not respond!")
@@ -87,23 +87,12 @@ class Vpn(object):
         if not is_running:
             logger.debug("Checking for openvpn process")
             time.sleep(1)
-            self.wait_for_user(tries)
+            self.__wait_for_user(tries)
         else:
             logger.debug("PID file was created...")
             pass
 
-    def check_if_process_running(self, processName):
-        #Iterate over the all the running process
-        for proc in psutil.process_iter():
-            try:
-                # Check if process name contains the given name string.
-                if processName.lower() in proc.name().lower():
-                    return True
-            except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
-                pass
-
-        return False
-    def set_OpenVPN_status(self):
+    def __set_OpenVPN_status(self):
         """
             Checks if the OpenVPN process is active
             It wasn't possible to find the exact PID so there is a 
@@ -127,7 +116,7 @@ class Vpn(object):
         logger.debug("VPN is online")
         self.status = True
         
-    def is_vpn_online(self):
+    def __is_vpn_online(self):
         return self.status
         
     def kill(self):
